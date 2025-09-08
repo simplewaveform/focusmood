@@ -29,19 +29,5 @@ No login. No backend. No external APIs. Runs entirely in the browser.
 
 ---
 
-## 📎 Repository Structure
-
-focusmood-lab2/
-│
-├── README.md
-├── docs/
-│ ├── SRS.md
-│ └── mockups/
-│ ├── main-screen.png
-│ └── result-screen.png
-└── .gitignore (optional)
-
----
-
 > Created for educational purposes as part of Software Requirements Engineering coursework.  
 > MIT License — feel free to learn, fork, and adapt.
