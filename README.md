@@ -31,15 +31,14 @@ No login. No backend. No external APIs. Runs entirely in the browser.
 
 ## 📎 Repository Structure
 
-focusmood-lab2/
-│
-├── README.md
-├── docs/
-│   ├── SRS.md
-│   └── mockups/
-│       ├── main-screen.png
-│       └── result-screen.png
-└── .gitignore (optional)
+focusmood-lab2/<br>
+├── README.md<br>
+├── docs/<br>
+│&nbsp;&nbsp; ├── SRS.md<br>
+│&nbsp;&nbsp; └── mockups/<br>
+│&nbsp;&nbsp; &nbsp;&nbsp; ├── main-screen.png<br>
+│&nbsp;&nbsp; &nbsp;&nbsp; └── result-screen.png<br>
+└── .gitignore (optional)<br>
 
 ---
 
