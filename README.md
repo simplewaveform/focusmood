@@ -1,19 +1,32 @@
 # FocusMood — Mood + Focus Timer Tracker
 
-> Lab 2: Requirements & Mockups  
-> Solo project by [Your Full Name], Group [Your Group]
+> Lab 2: Requirements Specification & UI Mockups  
+> Solo project by Sergei Yaruta, Group 350503
 
-## 🎯 Purpose
-Simple web app to track mood before and after a focus session (Pomodoro-style). Helps users reflect on emotional-productivity patterns.
+---
+
+## 📌 Project Overview
+
+**FocusMood** is a lightweight web application designed to help users track emotional state before and after a focused work session (Pomodoro-style). The goal is to increase self-awareness of how mood influences productivity — and vice versa.
+
+No login. No backend. No external APIs. Runs entirely in the browser.
+
+---
 
 ## 📄 Documentation
+
 - [Software Requirements Specification (SRS)](docs/SRS.md)
 - [UI Mockups](docs/mockups/)
 
-## 🛠️ Future Implementation (Lab 3+)
-- Vanilla JS + HTML/CSS
-- LocalStorage for session history (optional)
-- Hosted on GitHub Pages
+---
+
+## 🛠️ Planned Implementation (for future labs)
+
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Storage**: `localStorage` (optional, for session history)
+- **Hosting**: GitHub Pages
+- **Compatibility**: Modern browsers (Chrome, Firefox, Edge)
 
 ---
-Created for educational purposes. MIT License.
+
+## 📎 Repository Structure
