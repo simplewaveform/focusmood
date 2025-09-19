@@ -61,7 +61,9 @@ Mockups are provided in `/docs/mockups/`:
 
 - `main-screen.png` — Initial screen: mood selection + “Start” button
 - `result-screen.png` — Post-session screen: mood re-selection + feedback
-
+- `login.png` — User log-in page
+- `moods.png` — Example screenshot of moods page
+  
 ## 6. Glossary
 
 - **Focus Session**: A 25-minute uninterrupted work interval.
