@@ -6,6 +6,7 @@ Transitions:
 - "Log In" clicked → Authenticating
 - Valid credentials → Authenticated
 - Invalid credentials → Authentication Failed → back to Not Authenticated
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/State_LoginScreen.png)
 
 ## 2. Focus Session States
 States: `Mood Selection` → `Timer Running` → `Final Mood Selection` → `Result Displayed`  
@@ -21,3 +22,4 @@ Transitions:
 - Open profile → Loading Calendar
 - Click date → Session Details View
 - Back button → Dashboard Idle
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/State_Profile_History%20States.png)
