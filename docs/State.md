@@ -13,6 +13,7 @@ Transitions:
 - Mood selected → Timer Running
 - Timer ends → Final Mood Selection
 - Final mood submitted → Result Displayed
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/State_FocusSession.png)
 
 ## 3. Profile/History States
 States: `Dashboard Idle` → `Loading Calendar` → `Session Details View`  
