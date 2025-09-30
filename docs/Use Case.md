@@ -1,5 +1,7 @@
 # Use Cases — FocusMood
 
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Use%20Case.png)
+
 ## 1. Select Initial Mood
 **Actor**: User  
 **Description**: User selects emotional state before starting a focus session.  
@@ -9,10 +11,6 @@
 3. Clicks one mood.
 4. Clicks "Submit Mood".
 5. System stores initial mood.
-
-**Alternative Flows**:
-- 3a. No mood selected → "Submit" button remains disabled.
-- 4a. User cancels → returns to mood selection.
 
 ---
 
@@ -35,10 +33,6 @@
 2. Enters email and password.
 3. Clicks "Log In".
 4. System validates credentials → redirects to dashboard.
-
-**Alternative Flows**:
-- 2a. Invalid credentials → shows "Invalid email or password".
-- 2b. Forgot password → link to password reset.
 
 ---
 
