@@ -7,6 +7,7 @@ Flow:
 - LoginUI → AuthService: authenticate(email, password)
 - AuthService → UserProfile: loadUserData()
 - UserProfile → LoginUI: displayDashboard()
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Sequence_LogIn.png)
 
 ## 2. Start Focus Session
 Objects: `MoodSelector`, `TimerService`, `ResultScreen`  
@@ -15,10 +16,4 @@ Flow:
 - MoodSelector → TimerService: startTimer(25)
 - TimerService → ResultScreen: onComplete()
 - ResultScreen → MoodSelector: requestFinalMood()
-
-## 3. Save Session
-Objects: `ResultScreen`, `SessionManager`, `StorageService`  
-Flow:
-- ResultScreen → SessionManager: createSession(initial, final)
-- SessionManager → StorageService: save(session)
-- StorageService → SessionManager: confirmSave()
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Sequence_StartFocusSession.png)
