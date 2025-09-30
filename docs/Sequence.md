@@ -18,11 +18,11 @@ Flow:
 - ResultScreen → MoodSelector: requestFinalMood()
 ![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Sequence_StartFocusSession.png)
 
-## 3. View User Stats
+## 3. View Dashboard Stats
 Objects: `User`, `DashboardUI`, `StorageService`
 Flow:
 - User → DashboardUI: openDashboard()
 - DashboardUI → StorageService: loadUserStats()
 - StorageService → DashboardUI: return statsData
 - DashboardUI → User: displayStats()
-![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Sequence_ViewUserStats.png)
+![](https://github.com/simplewaveform/focusmood/blob/main/docs/Diagrams/Sequence_ViewDashboardStats.png)
