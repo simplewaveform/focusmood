@@ -20,7 +20,7 @@ Web application with optional user accounts (for persistent data). Can be used a
 - 25-minute focus timer runs (Pomodoro standard).
 - Upon completion, user selects final mood.
 - System displays mood transition feedback.
-- Optional: Save session history per user.
+- Optional: Save session history locally or in cloud.
 - Optional: Login / Sign up for persistent data.
 - Optional: Choose background music for focus.
 
@@ -71,7 +71,6 @@ Mockups are provided in `/docs/mockups/`:
 - `main.png` — Initial screen: mood selection + “Start” button
 - `music.png` — Background music selection
 - `month.png` — Monthly calendar view of sessions
-- `profile.png` — User profile with stats
 - `submit.png` — Post-session mood selection + feedback
 
 ## 6. Glossary
